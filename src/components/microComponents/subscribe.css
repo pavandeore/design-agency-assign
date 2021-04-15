@@ -1,0 +1,22 @@
+:root{
+    --blue: #1316c9;
+    --gray: #989798;
+    --red: #E8574E;
+    --yellow: #F3C30E;
+}
+
+
+.subscribe-div{
+    background: rgb(253,254,253);
+    background: linear-gradient(180deg, rgba(253,254,253,1) 0%, rgba(234,238,255,1) 54%);
+}
+.type-mail{
+    border-radius: 25px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border: 0px solid gray;
+}
+.send-mail-btn{
+    margin-left: -15px;
+    background-color: var(--blue)!important;
+}
