@@ -13,8 +13,8 @@ function navbar() {
                     </a>
                     <div className="centered-menu order-0">
                         <ul id="navbar" className="navbar-nav mx-auto">
-                            <li className="nav-item active">
-                                <a className="nav-link mx-2 text-dark font-weight-bold" href="#">Home</a>
+                            <li className="nav-item active ">
+                                <a className="nav-link mx-2 text-dark font-weight-bold active-blue" href="#">Home</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link mx-2 text-dark font-weight-bold" href="#">About</a>

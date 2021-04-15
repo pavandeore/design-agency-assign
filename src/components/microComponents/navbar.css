@@ -13,3 +13,6 @@
         position: unset;
     }
 }
+.active-blue{
+    border-bottom: 2px solid blue;
+}
