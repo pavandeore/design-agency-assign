@@ -6,12 +6,12 @@ import './navbar.css';
 function navbar() {
     return (
         <div>
-            <nav className="navbar navbar-expand-md navbar-light shadow-effect ">
-                <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <nav className="navbar navbar-expand-lg navbar-light shadow-effect ">
+                <div className="navbar-collapse centered-menu-parent collapse w-100 order-1 dual-collapse2">
                     <a className="navbar-brand ml-4" href="#">
                         <img alt="img" src={logo} width="40" height="40" alt="" />
                     </a>
-                    <div className="mx-auto order-0">
+                    <div className="centered-menu order-0">
                         <ul id="navbar" className="navbar-nav mx-auto">
                             <li className="nav-item active">
                                 <a className="nav-link mx-2 text-dark font-weight-bold" href="#">Home</a>
@@ -35,7 +35,7 @@ function navbar() {
                     </div>
                 </div>
                 
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <button className="navbar-toggler navbar-right" type="button" data-toggle="collapse" data-target=".dual-collapse2">
                         <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
@@ -46,6 +46,7 @@ function navbar() {
                     </ul>
                 </div>
             </nav>
+            
         </div>
     )
 }

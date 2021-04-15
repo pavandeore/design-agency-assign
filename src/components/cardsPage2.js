@@ -1,12 +1,37 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 
 import pen from '../assets/pen.png';
 import terminal from '../assets/terminal.png';
 import write from '../assets/write.png';
+import CustomAlert from './cutomAlert';
 
-function cardsPage2() {
+function CardsPage2() {
+
+    const [visible, setVisible] = useState(false);
+
+    const scrollAction = () =>{
+        if(window.scrollY >= 250 && window.scrollY<=2500){
+            setVisible(true);
+        }else{
+            setVisible(false);
+        }
+    }
+
+    const manualClose = () =>{
+        setVisible(false);
+        window.removeEventListener("scroll", scrollAction);
+    }
+
+    useEffect(()=>{
+        window.addEventListener('scroll',scrollAction) 
+    },[])
+    
+
     return (
         <div className="cardPage2-bg my-3">
+
+            { visible ? <CustomAlert ><button onClick={manualClose} className="btn btn-danger">X</button><br/>This alert type message nearly took BRUST my laptop to develop <br/> Again some alert message here just to test if it is working or not ! </CustomAlert> : null }
+
             <div className="container">
                 <div className="row mx-5">
                     <div className="col-12 col-md-7 d-flex align-items-center justify-content-center flex-wrap flex-md-nowrap">
@@ -40,8 +65,9 @@ function cardsPage2() {
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }
 
-export default cardsPage2
+export default CardsPage2

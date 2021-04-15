@@ -1,3 +1,15 @@
 .circle-20{
     border-radius: 20px!important;
 }
+.centered-menu-parent{
+    position: relative;
+}
+.centered-menu{
+    position: absolute;
+    left: 60%;
+}
+@media (max-width:993px){
+    .centered-menu{
+        position: unset;
+    }
+}

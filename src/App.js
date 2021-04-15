@@ -9,19 +9,17 @@ import CardsPage2 from './components/cardsPage2';
 import AcheivementsPage4 from './components/acheivementsPage4';
 import ReviewsProjectsPage6 from './components/reviewsProjectsPage6';
 
-
+  
 function App() {
   return (
     <div className="App">
-
-      <Mainpage />
-      <CardsPage2 />
-      <InfoPage3 />
-      <AcheivementsPage4 />
-      <ProductsPage5 />
-      <ReviewsProjectsPage6 />
-      <SubscribeFooterPage7 />
-
+        <Mainpage />
+        <CardsPage2 />
+        <InfoPage3 />
+        <AcheivementsPage4 />
+        <ProductsPage5 />
+        <ReviewsProjectsPage6 />
+        <SubscribeFooterPage7 />
     </div>
   );
 }
