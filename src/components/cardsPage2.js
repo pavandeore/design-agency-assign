@@ -10,7 +10,7 @@ function CardsPage2() {
     const [visible, setVisible] = useState(false);
 
     const scrollAction = () =>{
-        if(window.scrollY >= 250 && window.scrollY<=2500){
+        if(window.scrollY >= 250 && window.scrollY<=1500){
             setVisible(true);
         }else{
             setVisible(false);
