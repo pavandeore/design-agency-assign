@@ -20,7 +20,6 @@ function App() {
       <ProductsPage5 />
       <SubscribeFooterPage7 />
 
-
     </div>
   );
 }

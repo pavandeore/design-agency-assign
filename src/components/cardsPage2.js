@@ -11,20 +11,20 @@ function cardsPage2() {
                 <div className="row mx-5">
                     <div className="col-12 col-md-7 d-flex align-items-center justify-content-center flex-wrap flex-md-nowrap">
                         <div className=" d-flex align-items-center justify-content-center">
-                            <div className=" border p-2 m-2 py-4 px-4">
-                                <img src={terminal} className="" />
+                            <div className=" border p-2 m-2 py-4 px-4 shadow-effect">
+                                <img alt="img" src={terminal} className="" />
                                 <h5 className="my-2">Development</h5>
                                 <p className="custom-color-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulumconsectetur adipiscing elit.</p>
                             </div>
                         </div>
                         <div>
-                            <div className=" border p-2 m-2 py-4 px-4">
-                                <img src={pen} className="" />
+                            <div className=" border p-2 m-2 py-4 px-4 shadow-effect">
+                                <img alt="img" src={pen} className="" />
                                 <h5 className="my-2">Design</h5>
                                 <p className="custom-color-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulumconsectetur adipiscing elit.</p>
                             </div>
-                            <div className=" border p-2 m-2 mt-3 py-4 px-4">
-                                <img src={write} className="" />
+                            <div className=" border p-2 m-2 mt-3 py-4 px-4 shadow-effect">
+                                <img alt="img" src={write} className="" />
                                 <h5 className="my-2">Branding</h5>
                                 <p className="custom-color-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulumconsectetur adipiscing elit.</p>
                             </div>

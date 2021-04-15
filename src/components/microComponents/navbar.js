@@ -6,10 +6,10 @@ import './navbar.css';
 function navbar() {
     return (
         <div>
-            <nav className="navbar navbar-expand-md navbar-light ">
+            <nav className="navbar navbar-expand-md navbar-light shadow-effect ">
                 <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
                 <a className="navbar-brand ml-4" href="#">
-                    <img src={logo} width="40" height="40" alt="" />
+                    <img alt="img" src={logo} width="40" height="40" alt="" />
                 </a>
                 </div>
                 <div className="mx-auto order-0">

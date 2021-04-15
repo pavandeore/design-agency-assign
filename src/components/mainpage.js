@@ -19,7 +19,7 @@ function mainpage() {
                         </div>
                     </div>
                     <div className="col-12 col-md-5">
-                        <img src={svg} className="w-100" />
+                        <img alt="img" src={svg} className="w-100" />
                     </div>
                 </div>
             </div>

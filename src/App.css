@@ -6,7 +6,7 @@
 }
 a{
     text-decoration: none!important;
-    color: var(--gray)!important;
+    color: var(--gray);
 }
 .custom-color-blue{
     color: var(--blue)!important;
@@ -36,6 +36,10 @@ a{
 
 .circle-20{
     border-radius: 20px!important;
+}
+
+.shadow-effect{
+    box-shadow: 2px 4px 10px 3px #e0e0e0;
 }
 
 /* 

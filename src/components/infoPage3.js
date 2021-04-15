@@ -15,7 +15,7 @@ function infoPage3() {
                         <button className="btn btn-outline-primary px-4 circle-20">Explore more</button>
                     </div>
                     <div className="col-12 col-md-6 pl-5">
-                        <img src={UndrawGirl} className="w-100" />
+                        <img alt="img" src={UndrawGirl} className="w-100" />
                     </div>
                 </div>
             </div>

@@ -1,0 +1,14 @@
+.products-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    grid-template-rows: 150px 150px;
+    grid-gap: 30px;
+}
+.products-list > div{
+    padding: 20px;
+    box-shadow: 2px 4px 10px 3px #e0e0e0;
+}
+.products-list > div:nth-child(2), .products-list > div:nth-child(5){
+    margin-top: -15px;
+    margin-bottom: 15px;
+}

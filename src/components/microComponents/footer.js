@@ -5,27 +5,15 @@ import logo from '../../assets/d-logo.jpg';
 function footer() {
     return (
         
-        
     <footer className="page-footer font-small mdb-color lighten-3 pt-4">
-
-  
         <div className="container text-center text-md-left">
-
-    
         <div className="row">
-
-      
             <div className="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
-
-                <img height="50px" width="50px" className="mb-3" src={logo} />
+                <img alt="img" height="50px" width="50px" className="mb-3" src={logo} />
                 <p className="custom-color-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
                 esseLorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
             </div>
-            
-
             <hr className="clearfix w-100 d-md-none" />
-
       
             <div className="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
             
@@ -33,22 +21,22 @@ function footer() {
 
                 <ul className="list-unstyled custom-color-gray">
                 <li>
-                    <a href="#!">About Us</a>
+                    <a className="custom-color-gray" href="https://google.com">About Us</a>
                 </li>
                 <li>
-                    <a href="#!">Partners</a>
+                    <a className="custom-color-gray" href="https://google.com">Partners</a>
                 </li>
                 <li>
-                    <a href="#!">Careers</a>
+                    <a className="custom-color-gray" href="https://google.com">Careers</a>
                 </li>
                 <li>
-                    <a href="#!">Faqs</a>
+                    <a className="custom-color-gray" href="https://google.com">Faqs</a>
                 </li>
                 <li>
-                    <a href="#!">Terms of Service</a>
+                    <a className="custom-color-gray" href="https://google.com">Terms of Service</a>
                 </li>
                 <li>
-                    <a href="#!">Contact Us</a>
+                    <a className="custom-color-gray" href="https://google.com">Contact Us</a>
                 </li>
                 </ul>
 
@@ -60,22 +48,22 @@ function footer() {
 
                 <ul className="list-unstyled custom-color-gray">
                 <li>
-                    <a href="#!">Home</a>
+                    <a className="custom-color-gray" href="https://google.com">Home</a>
                 </li>
                 <li>
-                    <a href="#!">Business</a>
+                    <a className="custom-color-gray" href="https://google.com">Business</a>
                 </li>
                 <li>
-                    <a href="#!">Funder</a>
+                    <a className="custom-color-gray" href="https://google.com">Funder</a>
                 </li>
                 <li>
-                    <a href="#!">Partner</a>
+                    <a className="custom-color-gray" href="https://google.com">Partner</a>
                 </li>
                 <li>
-                    <a href="#!">Knowledge Center</a>
+                    <a className="custom-color-gray" href="https://google.com">Knowledge Center</a>
                 </li>
                 <li>
-                    <a href="#!">Events</a>
+                    <a className="custom-color-gray" href="https://google.com">Events</a>
                 </li>
                 </ul>
 
@@ -117,19 +105,20 @@ function footer() {
                 <h5 className="font-weight-bold mb-4">Follow Us</h5>
 
             
-                <a type="button" className="btn-floating bg-primary rounded-circle text-white px-2 py-1 mx-2 btn-fb">
+                <a type="button" role="btn" className="btn-floating bg-primary rounded-circle text-white px-2 py-1 mx-2 btn-fb">
                     <i className="fa fa-facebook-f "></i>
                 </a>
                 
-                <a type="button" className="btn-floating bg-primary rounded-circle text-white px-2 py-1 mx-2 btn-fb">
+                <a type="button" role="btn" className="btn-floating bg-primary rounded-circle text-white px-2 py-1 mx-2 btn-fb">
                     <i className="fa fa-linkedin"></i>
                 </a>
                 
-                <a type="button" className="btn-floating bg-primary rounded-circle text-white px-2 py-1 mx-2 btn-fb">
+                <a type="button" role="btn" className="btn-floating bg-primary rounded-circle text-white px-2 py-1 mx-2 btn-fb">
                     <i className="fa fa-twitter"></i>
                 </a>
 
             </div>
+            
             <div className="col-12 text-center my-2">
                 <p className="custom-color-gray">&copy;2020 Copyright. All Rights Reserved. </p>
             </div>
@@ -137,8 +126,6 @@ function footer() {
         </div>
 
     </footer>
-
-
     )
 }
 
