@@ -16,7 +16,7 @@ function Testmonial2() {
                     <div className="carousel-item active">
                         <div className="d-flex row">
                             <div className="my-5 py-5 col-12 col-md-5 col-lg-4 ">
-                                <img src={pawan} className=" w-100 img-thumbnail" alt="..." />
+                                <img src={pawan} className=" w-100 img-thumbnail" alt="Pawan Profile" />
                             </div>
                             <div className="d-flex flex-column p-5 mt-5 col-12 col-md-7 col-lg-8">
                                 <div><div className="green"></div><div className="green"></div></div>
@@ -33,7 +33,7 @@ function Testmonial2() {
                     <div className="carousel-item">
                         <div className="d-flex row">
                             <div className="my-5 py-5 col-12 col-md-5 col-lg-4 ">
-                                <img src={pawan} className=" w-100 img-thumbnail" alt="..." />
+                                <img src={pawan} className=" w-100 img-thumbnail" alt="Pawan Profile" />
                             </div>
                             <div className="d-flex flex-column p-5 mt-5 col-12 col-md-7 col-lg-8">
                                 <div><div className="green"></div><div className="green"></div></div>
@@ -50,7 +50,7 @@ function Testmonial2() {
                     <div className="carousel-item">
                         <div className="d-flex row">
                             <div className="my-5 py-5 col-12 col-md-5 col-lg-4 ">
-                                <img src={pawan} className=" w-100 img-thumbnail" alt="..." />
+                                <img src={pawan} className=" w-100 img-thumbnail" alt="Pawan Profile" />
                             </div>
                             <div className="d-flex flex-column p-5 mt-5 col-12 col-md-7 col-lg-8">
                                 <div><div className="green"></div><div className="green"></div></div>
@@ -67,11 +67,11 @@ function Testmonial2() {
                 </div>
                 <div className="arrow-div">
                     <a className="carousel-control-prev-1 mr-4" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <img src={leftArrow} className="left-arrow" />
+                        <img src={leftArrow} alt="arrow left" className="left-arrow" />
                         <span className="sr-only">Previous</span>
                     </a>
                     <a className="carousel-control-next-1 mr-4" href="#carouselExampleControls" role="button" data-slide="next">
-                        <img src={rightArrow} className="right-arrow" />
+                        <img src={rightArrow} alt="arrow right" className="right-arrow" />
                         <span className="sr-only">Next</span>
                     </a>
                 </div>

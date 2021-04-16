@@ -5,7 +5,7 @@ import './productsPage5.css'
 
 function productsPage5() {
 
-    const totalProducts = Data.map((e)=> <Product url={e.img_url} txt={e.txt} link={e.link}  /> )
+    const totalProducts = Data.map((e)=> <Product url={e.img_url} txt={e.txt} link={e.link} key={e.id} /> )
 
     return (
         <div className="text-center px-3 container">

@@ -9,7 +9,13 @@
     text-align: right;
     position: absolute;
     width: 100%;
-    margin-top: -170px;
+    margin-top: -250px;
+}
+
+@media (max-width:983px){
+    .arrow-div{
+        margin-top: -150px;
+    }
 }
 
 @media (max-width:768px){
