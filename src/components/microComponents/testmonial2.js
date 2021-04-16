@@ -22,10 +22,10 @@ function Testmonial2() {
                                 <div><div className="green"></div><div className="green"></div></div>
                                     <div className="custom-color-gray my-5">This is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum text</div>
                                 <div>
-                                    <p>
-                                    <b>Pawan Deore</b>
-                                    <p className="custom-color-gray">CEO at XYZ ltd</p>
-                                    </p>
+                                    <div>
+                                        <b>Pawan Deore</b>
+                                        <p className="custom-color-gray">CEO at XYZ ltd</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -39,10 +39,10 @@ function Testmonial2() {
                                 <div><div className="green"></div><div className="green"></div></div>
                                     <div className="custom-color-gray my-5">This is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum text</div>
                                 <div>
-                                    <p>
-                                    <b>Pawan Deore</b>
-                                    <p className="custom-color-gray">CEO at ABC ltd</p>
-                                    </p>
+                                    <div>
+                                        <b>Pawan Deore</b>
+                                        <p className="custom-color-gray">CEO at ABC ltd</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -56,10 +56,10 @@ function Testmonial2() {
                                 <div><div className="green"></div><div className="green"></div></div>
                                     <div className="custom-color-gray my-5">This is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum textThis is some lorem ipsum text</div>
                                 <div>
-                                    <p>
-                                    <b>Pawan Deore</b>
-                                    <p className="custom-color-gray">CEO at LMN ltd</p>
-                                    </p>
+                                    <div>
+                                        <b>Pawan Deore</b>
+                                        <p className="custom-color-gray">CEO at LMN ltd</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

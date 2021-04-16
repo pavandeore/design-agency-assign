@@ -6,7 +6,7 @@ import rightArrow from '../../assets/right-arrow.png';
 
 function projects() {
     return (
-            <div className="container">
+            <div className="container-fluid my-5">
                     <div className="custom-color-blue ml-4"><b>Project</b></div>
                     <div className="d-flex  justify-content-around mx-4">
                         
@@ -29,8 +29,8 @@ function projects() {
                         
                     </div>
                     <div className="container-fluid">
-                        <div className="row mt-5">
-                            <div className="card col-12 col-md-6 col-lg-3 ">
+                        <div className="row mt-5 mx-auto">
+                            <div className="card col-12 col-md-5 col-lg-2 shadow-effect mx-3 mt-3">
                                 <img className="card-img w-100" src={pawan} alt="Card image" />
                                 <div className="card-body">
                                 <h4 className="card-title">Some Project</h4>
@@ -39,7 +39,7 @@ function projects() {
                                 </div>
                                 
                             </div>
-                            <div className="card col-12 col-md-6 col-lg-3 ">
+                            <div className="card col-12 col-md-5 col-lg-2 shadow-effect mx-3 mt-3">
                                 <img className="card-img w-100" src={pawan} alt="Card image" />
                                 <div className="card-body">
                                 <h4 className="card-title">Some Project</h4>
@@ -47,7 +47,7 @@ function projects() {
                                 <a href="#" className="btn btn-primary my-2">See Project</a>
                                 </div>
                             </div>
-                            <div className="card col-12 col-md-6 col-lg-3 ">
+                            <div className="card col-12 col-md-5 col-lg-2 shadow-effect mx-3 mt-3">
                                 <img className="card-img w-100" src={pawan} alt="Card image" />
                                 <div className="card-body">
                                 <h4 className="card-title">Some Project</h4>
@@ -55,7 +55,15 @@ function projects() {
                                 <a href="#" className="btn btn-primary my-2">See Project</a>
                                 </div>
                             </div>
-                            <div className="card col-12 col-md-6 col-lg-3 ">
+                            <div className="card col-12 col-md-5 col-lg-2 shadow-effect mx-3 mt-3">
+                                <img className="card-img w-100" src={pawan} alt="Card image" />
+                                <div className="card-body">
+                                <h4 className="card-title">Some Project</h4>
+                                <div className="card-text">Some example text some example text. Some Project is an architect and engineer</div>
+                                <a href="#" className="btn btn-primary my-2">See Project</a>
+                                </div>
+                            </div>
+                            <div className="card col-12 col-md-5 col-lg-2 shadow-effect mx-3 mt-3">
                                 <img className="card-img w-100" src={pawan} alt="Card image" />
                                 <div className="card-body">
                                 <h4 className="card-title">Some Project</h4>
