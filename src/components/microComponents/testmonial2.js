@@ -67,11 +67,11 @@ function Testmonial2() {
                 </div>
                 <div className="arrow-div">
                     <a className="carousel-control-prev-1 mr-4" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <img src={leftArrow} className="w-25 left-arrow" />
+                        <img src={leftArrow} className="left-arrow" />
                         <span className="sr-only">Previous</span>
                     </a>
                     <a className="carousel-control-next-1 mr-4" href="#carouselExampleControls" role="button" data-slide="next">
-                        <img src={rightArrow} className="w-25 right-arrow" />
+                        <img src={rightArrow} className="right-arrow" />
                         <span className="sr-only">Next</span>
                     </a>
                 </div>
