@@ -8,7 +8,7 @@ function projects() {
     return (
             <div className="container">
                     <div className="custom-color-blue ml-4"><b>Project</b></div>
-                    <div className="d-flex  justify-content-around">
+                    <div className="d-flex  justify-content-around mx-4">
                         
                         
                             <div className="d-flex">
