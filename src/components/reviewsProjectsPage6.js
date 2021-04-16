@@ -1,10 +1,12 @@
 import React from 'react'
-import Testimonial from './microComponents/testimonial'
+
+import Testmonial2 from './microComponents/testmonial2'
 
 function reviewsProjectsPage6() {
     return (
         <div>
-            <Testimonial />
+            
+            <Testmonial2 />
         </div>
     )
 }

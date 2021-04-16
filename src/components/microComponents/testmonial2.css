@@ -1,0 +1,28 @@
+.fa-arrow-left , .fa-arrow-right{
+    font-size: 2.5rem;
+    color: #252525;
+}
+.arrow-div{
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    margin-top: -170px;
+}
+
+@media (max-width:768px){
+    .arrow-div{
+        margin-top: -380px;
+    }
+}
+@media (max-width:340px){
+    .arrow-div{
+        margin-top: -480px;
+    }
+}
+
+.fa-arrow-left , .fa-arrow-right:active{
+    color: #252525;
+}
+.fa-arrow-left , .fa-arrow-right:hover{
+    color: #252525;
+}
