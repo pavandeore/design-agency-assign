@@ -6,7 +6,7 @@ const CustomAlert = props => {
     position : 'fixed',
     bottom: 15,
     width: '200px',
-    right: 15,
+    right: '24px',
     border: '2px solid #fff',
     color:'#fff',
     padding: '20px',
@@ -14,7 +14,7 @@ const CustomAlert = props => {
     backgroundColor: 'gray'
   }
 
-  return <div style={customAlertMsg} >{props.children}</div>;
+  return <div className="customAlertMsg" style={customAlertMsg} >{props.children}</div>;
 };
 
 export default React.memo(CustomAlert);
