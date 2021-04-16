@@ -1,6 +1,9 @@
-.fa-arrow-left , .fa-arrow-right{
-    font-size: 2.5rem;
-    color: #252525;
+.left-arrow{
+    width: 40px!important;
+    opacity: 0.6;
+}
+.right-arrow{
+    width: 50px!important;
 }
 .arrow-div{
     text-align: right;
@@ -18,11 +21,4 @@
     .arrow-div{
         margin-top: -480px;
     }
-}
-
-.fa-arrow-left , .fa-arrow-right:active{
-    color: #252525;
-}
-.fa-arrow-left , .fa-arrow-right:hover{
-    color: #252525;
 }
