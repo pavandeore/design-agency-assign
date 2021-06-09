@@ -10,7 +10,7 @@ import AcheivementsPage4 from './components/acheivementsPage4';
 import ReviewsProjectsPage6 from './components/reviewsProjectsPage6';
 
   
-function App() {
+ function App() {
   return (
     <div className="App">
         <Mainpage />
